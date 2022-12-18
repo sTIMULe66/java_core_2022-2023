@@ -26,11 +26,12 @@ public class Example_7 {
             for(int i = 0; i < (array.length); i++){
                 System.out.println("Шаг №" + i + ":");
                 System.out.println("Вывод результата в виде элементов:");
+                System.out.println("---Заполнение элементов строки---");
                 for(int k = 0; k < (array[i].length-i); k++) {
                     array[i][k] = rand.nextInt(99);
                     System.out.println("Array["+i+"]"+"["+k+"]="+array[i][k] + "\t");
                     }
-                System.out.println("-----");
+                System.out.println("---Заполнение элементов столбца---");
                 for (int x = array.length-1; x > i; x--) {
                     array[x][y] = rand.nextInt(99);
                     System.out.println("Array["+x+"]"+"["+y+"]="+array[x][y] + "\t");
