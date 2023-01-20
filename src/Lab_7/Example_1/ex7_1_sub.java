@@ -20,7 +20,7 @@ public class ex7_1_sub extends ex7_1_super{
 
     @Override
     public String toString() {
-        String nss = ("Класс: ex7_1_sub\t" + "Text1 = " + super.toString() + "\tText2  = " +  text2);
+        String nss = ("Класс: ex7_1_sub\t" + "Text1 = " + super.text1 + "\tText2  = " +  text2);
         return nss;
     }
 }
